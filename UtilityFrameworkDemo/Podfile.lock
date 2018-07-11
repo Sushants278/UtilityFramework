@@ -1,0 +1,16 @@
+PODS:
+  - UtilityFramework (1.0.0)
+
+DEPENDENCIES:
+  - UtilityFramework (from `../UtilityFramework`)
+
+EXTERNAL SOURCES:
+  UtilityFramework:
+    :path: "../UtilityFramework"
+
+SPEC CHECKSUMS:
+  UtilityFramework: 70cff51871e19b1a13d16fc8320083fa504885ba
+
+PODFILE CHECKSUM: bffa5a31ebc4cca27dd6f1eb1dfa11b4c1fd0672
+
+COCOAPODS: 1.5.2

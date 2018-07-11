@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension String {
+public extension String {
     func getPathExtension() -> String {
         return (self as NSString).pathExtension
     }
@@ -19,7 +19,7 @@ extension String {
 
 extension UIImage {
     
-   class func getImage(fileName : String ) -> UIImage {
+  public class func getImage(fileName : String ) -> UIImage {
         let fileExtn = fileName.getPathExtension()
         switch fileExtn {
         case "png" :
