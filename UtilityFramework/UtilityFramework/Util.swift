@@ -44,7 +44,7 @@ extension UIImage {
 
 // MARK: - Common Alert Controller
 
-extension UIAlertController {
+public extension UIAlertController {
     func showAlert(title : String, message: String) -> UIAlertController {
         let alert = UIAlertController(
             title: title,
